@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+:root {
+    --dark-gray: hsl(0, 0%, 63%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --very-dark-gray: hsl(0, 0%, 27%);
+}
+
+body { 
+    background-color: rgba(220, 220, 220, 0.591);
+    font-family: 'Spartan', sans-serif;
+    font-size: .75rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.upper-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.upper-section .section-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 61%;
+    height: 500px;
+    position: relative;
+    margin: 0;
+    background-image: url(images/desktop-image-hero-1.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a { 
+    text-decoration: none;
+    color: white;
+}
+a:hover { 
+    color: rgb(243, 162, 162);
+    background-color: rgb(238, 219, 215);
+    border-radius: 5px;
+}
+.section-1 .image {
+    width: 100%;   
+}
+.section-1 .image img {
+    width: 100%;
+    margin: 0;
+}
+.navigations {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.navigations a.nav {
+    padding: 10px;
+}
+.navigations img.nav-img {
+    padding-right: 10px;
+}
+.upper-section .section-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 39%;
+    margin: 0;
+    padding: 40px 60px;
+    position: relative;
+    background-color: var(--white);
+    color: var(--very-dark-gray);
+}
+.section-2 p {
+    line-height: 1.3rem;
+    color: var(--dark-gray);
+}
+.section-2 img {
+    width: 40px;
+    height: 45px;
+    background-color: var(--black);
+    padding: 15px;
+}
+.left-angle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.right-angle {
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+}
+.section-2 p.shop-now {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--very-dark-gray);
+}
+.lower-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.lower-section .section-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 230px;
+    background-image: url(images/image-about-dark.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lower-section .section-3 img {
+    width: 100%;
+   
+}
+.lower-section .section-4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 40% ;
+    padding: 0 30px;
+    background-color: var(--white);
+}
+.section-4 img {
+    width: 100%;  
+}
+.section-4 h3 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    color: var(--very-dark-gray);
+}
+.section-4 p {
+    margin-top: 5px;
+    color: var(--dark-gray);
+    line-height: 1.3rem;
+}
+.lower-section .section-5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 230px;
+    background-image: url(images/image-about-light.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lower-section .section-5 img {
+    width: 100%;
+    
+}
