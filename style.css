@@ -83,14 +83,25 @@ a:hover {
     color: var(--very-dark-gray);
 }
 .section-2 p {
-    line-height: 1.3rem;
+    line-height: 1.25rem;
+    font-size: .7rem;
     color: var(--dark-gray);
 }
-.section-2 img {
-    width: 40px;
-    height: 45px;
+.section-2 .shop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.shop .arrow {
+    width: 60px;
+    height: 23%;
+    padding-left: 30px;
+}
+.angle-icons {
+    width: 50px;
+    height: 55px;
     background-color: var(--black);
-    padding: 15px;
+    padding: 18px; 
 }
 .left-angle {
     position: absolute;
@@ -99,8 +110,13 @@ a:hover {
 }
 .right-angle {
     position: absolute;
-    left: 40px;
+    left: 50px;
     bottom: 0;
+}
+.angle-icons:hover {
+    cursor: pointer;
+    background-color: rgb(54, 51, 51);
+    padding: 17px;
 }
 .section-2 p.shop-now {
     text-transform: uppercase;
@@ -126,7 +142,6 @@ a:hover {
 }
 .lower-section .section-3 img {
     width: 100%;
-   
 }
 .lower-section .section-4 {
     display: flex;
@@ -149,7 +164,8 @@ a:hover {
 .section-4 p {
     margin-top: 5px;
     color: var(--dark-gray);
-    line-height: 1.3rem;
+    line-height: 1.25rem;
+    font-size: .7rem;
 }
 .lower-section .section-5 {
     display: flex;
@@ -163,6 +179,5 @@ a:hover {
     background-size: cover;
 }
 .lower-section .section-5 img {
-    width: 100%;
-    
+    width: 100%;  
 }
