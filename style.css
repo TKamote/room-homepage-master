@@ -35,11 +35,11 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     width: 61%;
-    height: 500px;
+    min-height: 500px;
     position: relative;
     margin: 0;
     background-image: url(images/desktop-image-hero-1.jpg);
-    background-position: left top;
+    background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -134,7 +134,7 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     width: 30%;
-    height: 230px;
+    min-height: 230px;
     background-image: url(images/image-about-dark.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     width: 30%;
-    height: 230px;
+    min-height: 230px;
     background-image: url(images/image-about-light.jpg);
     background-position: center center;
     background-repeat: no-repeat;
